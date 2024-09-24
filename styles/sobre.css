@@ -1,0 +1,45 @@
+/* Estilo do sobre*/
+section.sobre {
+    padding: 40px 4%;
+
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: #fff;
+    
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+
+.sobre .txt-sobre h2 span {
+    color: #458efa;
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #458efa;
+    font-size: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
