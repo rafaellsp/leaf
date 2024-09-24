@@ -53,6 +53,106 @@ h2.titulo span {
 }
 
 
+@media screen and (max-width: 1020px) {
+
+    /* Geral*/
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+      
+        font-size: 30px;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    /* Cabeçalho*/
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    /* Topo do site*/
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+    
+    section.topo-do-site h1 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /* Especialidades */
+    section.especialidades {
+    padding: 40px 8%;
+
+    }
+
+    /*Sobre*/
+    section.sobre {
+        padding: 80px 8%;
+        text-align: justify;
+    }
+
+    section.sobre .txt-sobre h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+        
+    /* portifolio*/
+    section.portifolio {
+        padding: 80px 8%;
+        box-shadow: 0 0 40px 10px #ffffff1d;
+    }
+
+    
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portifolio  .flex{
+        gap: 60px;
+     }
+     
+     /* Footer*/
+
+     
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
+}
+
+
 /*
 form input::placeholder {
 }*/

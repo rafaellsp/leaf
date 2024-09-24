@@ -8,3 +8,24 @@ footer {
 footer .flex {
     justify-content: space-between;
 }
+
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #458efa;
+}
+
+footer .line-footer p i{
+    color: #458efa;
+    font-size: 22px;
+
+}
+
+footer .line-footer p a {
+    color: #fff;
+}section.topo-do-site {
+    padding: 40px 4%;
+}
